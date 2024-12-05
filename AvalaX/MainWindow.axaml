@@ -6,9 +6,7 @@
         Width="800" Height="450"
         x:Class="AvalaX.MainWindow"
         Title="AvalaX">
-    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Label>
-        Welcome to Avalonia!
-        </Label>
-    </StackPanel>
+    <Grid Background="{DynamicResource PrimaryBackground}" ColumnDefinitions="200, *">
+        
+    </Grid>
 </Window>
